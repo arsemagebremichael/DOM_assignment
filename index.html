@@ -3,10 +3,11 @@
 <html>
 
 <head>
-    <script src="https://kit.fontawesome.com/bbdf563758.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+
     <title>Greens Kiosk</title>
+
 </head>
+
 <body>
     <div id="nav">
         <p>Call us: +254709347898</p>
@@ -21,40 +22,75 @@
     <h1 id="title">Welcome to Greens Kiosk</h1>
     <p id="p1">We sell fruits and vegetables</p>
 
-    <div id="product_type">
-        <h3>Fruits</h3>
-        <h3>Vegetables</h3>
+    <div id="category">
+        <h3 id="veggie-cate">Vegetables</h3>
+        <h3 id="fruit-cate">Fruits</h3>
     </div>
-    <!-- <nav id="productNav">
-        <p>Product</p>
-        <div id="product_detail">
+    <div id="fruList">
+        <nav class="productNav">
+            <p>Product</p>
             <p>Price</p>
             <p>Date Added</p>
-        </div>
+        </nav>
+        <ul>
+            <li id="li"> 
+                <p>Mangoes</p>
+                <p> Ksh 500</p>
+                <p>1KG</p>
 
-    </nav> -->
-    <div id="products">
-        <div>
-            <ul id="fruList">
-               <li>Mango</li>
-                <li>Bananas</li>
-                <li>Water Melons</li>
-            </ul>
-        </div>
-        <div>
-            <ul id="vegList">
+            </li>
 
-                <li>Onions</li>
+            <li id="li">
+                <p>Bananas</p>
+                <p>Ksh 100</p>
+                <p>1KG</p>
+            </li>
 
-                <li>Tomatoes</li>
+            <li id="li">
+                <p>Water Melon</p>
+                <p>Ksh 200</p>
+                <p>5KG</p>
+            </li>
 
-                <li>Kales</li>
-
-            </ul>
-        </div>
+        </ul>
     </div>
-    <script src="index.js"></script>
 
+    <div id="vegList">
+        <ul>
+            <nav class="productNav">
+                <p>Product</p>
+
+                <p>Price</p>
+                <p>Quantity</p>
+
+            </nav>
+            <li id="li">
+                <p>Onions</p>
+                <p>Ksh 300</p>
+                <p>3KG</p>
+
+            </li>
+
+            <li id="li">
+                <p>Tomatoes</p>
+                <p>Ksh 400</p>
+                <p>5KG</p>
+
+            </li>
+
+            <li id="li">
+                <p>Kale</p>
+                <p>Ksh 100</p>
+                <p>2KG</p>
+            </li>
+
+        </ul>
+
+    </div>
+
+
+
+<script src="index.js"></script>
 </body>
 
 </html>
